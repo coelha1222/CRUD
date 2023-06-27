@@ -34,7 +34,7 @@ const showingNavigationDropdown = ref(false);
                                 </NavLink>
                                 
                                 <NavLink :href="route('musics.index')" :active="route().current('musics')">
-                                  Musicas
+                                  Musics
                                 </NavLink>
                                 
                             </div>

@@ -43,35 +43,34 @@ const submit = () => {
                             <div class="mb-6">
                                 <label
                                     for="name"
-                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700"
                                     >Name</label
                                 >
                                 <input
                                     type="text"
                                     v-model="form.name"
                                     name="Name"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                    class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                     placeholder=""
                                 />
                                 <div
                                     v-if="form.errors.name"
-                                    class="text-sm text-red-600"
-                                >
+                                    class="text-sm text-red-600">
                                     {{ form.errors.name }}
                                 </div>
                             </div>
                             <div class="mb-6">
                                 <label
                                     for="artist"
-                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                                    >artist</label
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700"
+                                    >Artist</label
                                 >
                                 <input
                                     type="text"
                                     v-model="form.artist"
                                     name="artist"
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                                    placeholder="Artist"
+                                    class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                    placeholder=""
                                 />
                                 <div
                                     v-if="form.errors.artist"
@@ -83,15 +82,15 @@ const submit = () => {
                             <div class="mb-6">
                                 <label
                                     for="album"
-                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-                                    >album</label
+                                    class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-700"
+                                    >Album</label
                                 >
                                 <textarea
                                     type="text"
                                     v-model="form.album"
                                     name="album"
                                     id=""
-                                    class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                                    class="bg-gray-50 border border-gray-400 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                 ></textarea>
 
                                 <div

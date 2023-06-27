@@ -11,11 +11,8 @@ import { Head } from '@inertiajs/vue3';
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">Dashboard</h2>
         </template>
 
-        <Head title="Música" />
-    <template #musics>
-      <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">Música</h2>
-      <Link :href="route('musics.index')" class="text-blue-500 hover:underline">Ir para Músicas</Link>
-    </template>
+     
+
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
